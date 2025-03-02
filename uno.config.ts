@@ -1,11 +1,9 @@
 // unocss.config.ts
-import { defineUsefulConfig } from 'unocss-preset-useful'
 import transormerAttributifyJsx from "@unocss/transformer-attributify-jsx"
 import { presetUno, presetAttributify } from 'unocss'
+import { defineConfig } from "unocss"
 
-export default defineUsefulConfig(
-  {
-  },
+export default defineConfig(
   {
     presets: [
       presetUno(),
